@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/odin-mem-card/static/css/main.a98aab18.chunk.css",
-    "main.js": "/odin-mem-card/static/js/main.e52c6774.chunk.js",
-    "main.js.map": "/odin-mem-card/static/js/main.e52c6774.chunk.js.map",
+    "main.css": "/odin-mem-card/static/css/main.08ea4d45.chunk.css",
+    "main.js": "/odin-mem-card/static/js/main.e02002af.chunk.js",
+    "main.js.map": "/odin-mem-card/static/js/main.e02002af.chunk.js.map",
     "runtime-main.js": "/odin-mem-card/static/js/runtime-main.5f4e9c0c.js",
     "runtime-main.js.map": "/odin-mem-card/static/js/runtime-main.5f4e9c0c.js.map",
-    "static/js/2.432a803d.chunk.js": "/odin-mem-card/static/js/2.432a803d.chunk.js",
-    "static/js/2.432a803d.chunk.js.map": "/odin-mem-card/static/js/2.432a803d.chunk.js.map",
+    "static/js/2.0b3ca4f9.chunk.js": "/odin-mem-card/static/js/2.0b3ca4f9.chunk.js",
+    "static/js/2.0b3ca4f9.chunk.js.map": "/odin-mem-card/static/js/2.0b3ca4f9.chunk.js.map",
     "index.html": "/odin-mem-card/index.html",
-    "static/css/main.a98aab18.chunk.css.map": "/odin-mem-card/static/css/main.a98aab18.chunk.css.map",
-    "static/js/2.432a803d.chunk.js.LICENSE.txt": "/odin-mem-card/static/js/2.432a803d.chunk.js.LICENSE.txt",
+    "static/css/main.08ea4d45.chunk.css.map": "/odin-mem-card/static/css/main.08ea4d45.chunk.css.map",
+    "static/js/2.0b3ca4f9.chunk.js.LICENSE.txt": "/odin-mem-card/static/js/2.0b3ca4f9.chunk.js.LICENSE.txt",
     "static/media/ALAT.cf138455.png": "/odin-mem-card/static/media/ALAT.cf138455.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5f4e9c0c.js",
-    "static/js/2.432a803d.chunk.js",
-    "static/css/main.a98aab18.chunk.css",
-    "static/js/main.e52c6774.chunk.js"
+    "static/js/2.0b3ca4f9.chunk.js",
+    "static/css/main.08ea4d45.chunk.css",
+    "static/js/main.e02002af.chunk.js"
   ]
 }
