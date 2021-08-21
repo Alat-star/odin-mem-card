@@ -1052,7 +1052,6 @@ caption {
   background-color: transparent;
   border-color: #4c883f;
   color: #000;
-  /* color:rgb(76,136,63); */
  }
 
  button:hover {
@@ -1087,7 +1086,6 @@ caption {
   background-color:rgba(28, 75, 121, 1);
   border-radius: 5px;
   display: grid;
-  /* grid-template-columns: repeat( ); */
 }
 
 .score-header {
@@ -1106,7 +1104,6 @@ caption {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(2, auto);
-  /* justify-content: center; */
   justify-content: space-around;
   align-items: center;
   place-items: center;
@@ -1152,11 +1149,9 @@ caption {
 
  .game-div {
    display: grid;
-   /* grid-template-columns: repeat(auto-fit, minmax(50px, 250px)); */
    grid-template-columns: repeat(3, auto);
    align-items: center;
    justify-content: center;
-   /* place-items: center; */
  }
 
  

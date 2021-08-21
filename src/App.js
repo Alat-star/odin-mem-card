@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {BrowserRouter, Link, Route, Switch } from 'react-router-dom';
+import {BrowserRouter, HashRouter, Link, Route, Switch } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faFacebookF, faTwitter, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faCheckSquare, faCoffee, faUser, faBars, faSquare, faMedal, } from '@fortawesome/free-solid-svg-icons';
@@ -24,7 +24,6 @@ function App() {
     const [count, setCount] = useState(0);
     const [bestScore, setScore] = useState(0);
     const [scoreBoard, setBoardScore] = useState([]);
-    // const [game, setGame] = useState(false);
 
   const increment = () => {
     if(count) {
@@ -101,22 +100,20 @@ function App() {
   
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <div className='container'>
           <Header />
           <Switch>
             <Route path="/" component={Home} exact />
 
-            <Route path="/gamep">
+            <Route path="/gamep" exact>
               <GameP  count={count} newMedal={newMedal} bestScore={bestScore} decrement={decrement} medal={medal} increment={increment}  />
             </Route>
           </Switch>
-          {/* <Game decrement={decrement} medal={medal} increment={increment} /> */}
-
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
